@@ -10,12 +10,11 @@
 		7D5765761EC9A7FE00CA2317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765751EC9A7FE00CA2317 /* AppDelegate.swift */; };
 		7D5765781EC9A7FE00CA2317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765771EC9A7FE00CA2317 /* ViewController.swift */; };
 		7D57657B1EC9A7FE00CA2317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5765791EC9A7FE00CA2317 /* Main.storyboard */; };
-		7D57657E1EC9A7FE00CA2317 /* test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D57657C1EC9A7FE00CA2317 /* test.xcdatamodeld */; };
 		7D5765801EC9A7FE00CA2317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D57657F1EC9A7FE00CA2317 /* Assets.xcassets */; };
 		7D5765831EC9A7FE00CA2317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5765811EC9A7FE00CA2317 /* LaunchScreen.storyboard */; };
-		7D57658E1EC9A7FE00CA2317 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D57658D1EC9A7FE00CA2317 /* testTests.swift */; };
-		7D5765991EC9A7FE00CA2317 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765981EC9A7FE00CA2317 /* testUITests.swift */; };
-		7D5765A91ECAEDA700CA2317 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7D5765A81ECAEDA700CA2317 /* .gitignore */; };
+		7D57658E1EC9A7FE00CA2317 /* CryptoMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D57658D1EC9A7FE00CA2317 /* CryptoMessageTests.swift */; };
+		7D5765991EC9A7FE00CA2317 /* CryptoMessageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765981EC9A7FE00CA2317 /* CryptoMessageUITests.swift */; };
+		7DFAC2051ECB2E0600252839 /* CryptoMessage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D57657C1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7D5765721EC9A7FE00CA2317 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5765721EC9A7FE00CA2317 /* CryptoMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5765751EC9A7FE00CA2317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D5765771EC9A7FE00CA2317 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D57657A1EC9A7FE00CA2317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7D57657D1EC9A7FE00CA2317 /* test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test.xcdatamodel; sourceTree = "<group>"; };
+		7D57657D1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CryptoMessage.xcdatamodel; sourceTree = "<group>"; };
 		7D57657F1EC9A7FE00CA2317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D5765821EC9A7FE00CA2317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D5765841EC9A7FE00CA2317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D5765891EC9A7FE00CA2317 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D57658D1EC9A7FE00CA2317 /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
+		7D5765891EC9A7FE00CA2317 /* CryptoMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D57658D1EC9A7FE00CA2317 /* CryptoMessageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoMessageTests.swift; sourceTree = "<group>"; };
 		7D57658F1EC9A7FE00CA2317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D5765941EC9A7FE00CA2317 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D5765981EC9A7FE00CA2317 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
+		7D5765941EC9A7FE00CA2317 /* CryptoMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5765981EC9A7FE00CA2317 /* CryptoMessageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoMessageUITests.swift; sourceTree = "<group>"; };
 		7D57659A1EC9A7FE00CA2317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D5765A81ECAEDA700CA2317 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +79,9 @@
 		7D5765691EC9A7FE00CA2317 = {
 			isa = PBXGroup;
 			children = (
-				7D5765741EC9A7FE00CA2317 /* Crypto Message */,
-				7D57658C1EC9A7FE00CA2317 /* testTests */,
-				7D5765971EC9A7FE00CA2317 /* testUITests */,
+				7D5765741EC9A7FE00CA2317 /* CryptoMessage */,
+				7D57658C1EC9A7FE00CA2317 /* CryptoMessageTests */,
+				7D5765971EC9A7FE00CA2317 /* CryptoMessageUITests */,
 				7D5765731EC9A7FE00CA2317 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +89,14 @@
 		7D5765731EC9A7FE00CA2317 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D5765721EC9A7FE00CA2317 /* test.app */,
-				7D5765891EC9A7FE00CA2317 /* testTests.xctest */,
-				7D5765941EC9A7FE00CA2317 /* testUITests.xctest */,
+				7D5765721EC9A7FE00CA2317 /* CryptoMessage.app */,
+				7D5765891EC9A7FE00CA2317 /* CryptoMessageTests.xctest */,
+				7D5765941EC9A7FE00CA2317 /* CryptoMessageUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7D5765741EC9A7FE00CA2317 /* Crypto Message */ = {
+		7D5765741EC9A7FE00CA2317 /* CryptoMessage */ = {
 			isa = PBXGroup;
 			children = (
 				7D5765751EC9A7FE00CA2317 /* AppDelegate.swift */,
@@ -107,37 +105,37 @@
 				7D57657F1EC9A7FE00CA2317 /* Assets.xcassets */,
 				7D5765811EC9A7FE00CA2317 /* LaunchScreen.storyboard */,
 				7D5765841EC9A7FE00CA2317 /* Info.plist */,
-				7D57657C1EC9A7FE00CA2317 /* test.xcdatamodeld */,
-				7D5765A81ECAEDA700CA2317 /* .gitignore */,
+				7D57657C1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodeld */,
 			);
-			name = "Crypto Message";
-			path = test;
+			path = CryptoMessage;
 			sourceTree = "<group>";
 		};
-		7D57658C1EC9A7FE00CA2317 /* testTests */ = {
+		7D57658C1EC9A7FE00CA2317 /* CryptoMessageTests */ = {
 			isa = PBXGroup;
 			children = (
-				7D57658D1EC9A7FE00CA2317 /* testTests.swift */,
+				7D57658D1EC9A7FE00CA2317 /* CryptoMessageTests.swift */,
 				7D57658F1EC9A7FE00CA2317 /* Info.plist */,
 			);
-			path = testTests;
+			name = CryptoMessageTests;
+			path = CryptoMessageTests;
 			sourceTree = "<group>";
 		};
-		7D5765971EC9A7FE00CA2317 /* testUITests */ = {
+		7D5765971EC9A7FE00CA2317 /* CryptoMessageUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7D5765981EC9A7FE00CA2317 /* testUITests.swift */,
+				7D5765981EC9A7FE00CA2317 /* CryptoMessageUITests.swift */,
 				7D57659A1EC9A7FE00CA2317 /* Info.plist */,
 			);
-			path = testUITests;
+			name = CryptoMessageUITests;
+			path = CryptoMessageUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7D5765711EC9A7FE00CA2317 /* test */ = {
+		7D5765711EC9A7FE00CA2317 /* CryptoMessage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D57659D1EC9A7FE00CA2317 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 7D57659D1EC9A7FE00CA2317 /* Build configuration list for PBXNativeTarget "CryptoMessage" */;
 			buildPhases = (
 				7D57656E1EC9A7FE00CA2317 /* Sources */,
 				7D57656F1EC9A7FE00CA2317 /* Frameworks */,
@@ -147,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = test;
-			productName = test;
-			productReference = 7D5765721EC9A7FE00CA2317 /* test.app */;
+			name = CryptoMessage;
+			productName = CryptoMessage;
+			productReference = 7D5765721EC9A7FE00CA2317 /* CryptoMessage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7D5765881EC9A7FE00CA2317 /* testTests */ = {
+		7D5765881EC9A7FE00CA2317 /* CryptoMessageTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D5765A01EC9A7FE00CA2317 /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildConfigurationList = 7D5765A01EC9A7FE00CA2317 /* Build configuration list for PBXNativeTarget "CryptoMessageTests" */;
 			buildPhases = (
 				7D5765851EC9A7FE00CA2317 /* Sources */,
 				7D5765861EC9A7FE00CA2317 /* Frameworks */,
@@ -165,14 +163,14 @@
 			dependencies = (
 				7D57658B1EC9A7FE00CA2317 /* PBXTargetDependency */,
 			);
-			name = testTests;
-			productName = testTests;
-			productReference = 7D5765891EC9A7FE00CA2317 /* testTests.xctest */;
+			name = CryptoMessageTests;
+			productName = CryptoMessageTests;
+			productReference = 7D5765891EC9A7FE00CA2317 /* CryptoMessageTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7D5765931EC9A7FE00CA2317 /* testUITests */ = {
+		7D5765931EC9A7FE00CA2317 /* CryptoMessageUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D5765A31EC9A7FE00CA2317 /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildConfigurationList = 7D5765A31EC9A7FE00CA2317 /* Build configuration list for PBXNativeTarget "CryptoMessageUITests" */;
 			buildPhases = (
 				7D5765901EC9A7FE00CA2317 /* Sources */,
 				7D5765911EC9A7FE00CA2317 /* Frameworks */,
@@ -183,9 +181,9 @@
 			dependencies = (
 				7D5765961EC9A7FE00CA2317 /* PBXTargetDependency */,
 			);
-			name = testUITests;
-			productName = testUITests;
-			productReference = 7D5765941EC9A7FE00CA2317 /* testUITests.xctest */;
+			name = CryptoMessageUITests;
+			productName = CryptoMessageUITests;
+			productReference = 7D5765941EC9A7FE00CA2317 /* CryptoMessageUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7D57656D1EC9A7FE00CA2317 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 7D57656D1EC9A7FE00CA2317 /* Build configuration list for PBXProject "CryptoMessage" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -227,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D5765711EC9A7FE00CA2317 /* test */,
-				7D5765881EC9A7FE00CA2317 /* testTests */,
-				7D5765931EC9A7FE00CA2317 /* testUITests */,
+				7D5765711EC9A7FE00CA2317 /* CryptoMessage */,
+				7D5765881EC9A7FE00CA2317 /* CryptoMessageTests */,
+				7D5765931EC9A7FE00CA2317 /* CryptoMessageUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,7 +237,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5765A91ECAEDA700CA2317 /* .gitignore in Resources */,
 				7D5765831EC9A7FE00CA2317 /* LaunchScreen.storyboard in Resources */,
 				7D5765801EC9A7FE00CA2317 /* Assets.xcassets in Resources */,
 				7D57657B1EC9A7FE00CA2317 /* Main.storyboard in Resources */,
@@ -267,9 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFAC2051ECB2E0600252839 /* CryptoMessage.xcdatamodeld in Sources */,
 				7D5765781EC9A7FE00CA2317 /* ViewController.swift in Sources */,
 				7D5765761EC9A7FE00CA2317 /* AppDelegate.swift in Sources */,
-				7D57657E1EC9A7FE00CA2317 /* test.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D57658E1EC9A7FE00CA2317 /* testTests.swift in Sources */,
+				7D57658E1EC9A7FE00CA2317 /* CryptoMessageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5765991EC9A7FE00CA2317 /* testUITests.swift in Sources */,
+				7D5765991EC9A7FE00CA2317 /* CryptoMessageUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +291,12 @@
 /* Begin PBXTargetDependency section */
 		7D57658B1EC9A7FE00CA2317 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7D5765711EC9A7FE00CA2317 /* test */;
+			target = 7D5765711EC9A7FE00CA2317 /* CryptoMessage */;
 			targetProxy = 7D57658A1EC9A7FE00CA2317 /* PBXContainerItemProxy */;
 		};
 		7D5765961EC9A7FE00CA2317 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7D5765711EC9A7FE00CA2317 /* test */;
+			target = 7D5765711EC9A7FE00CA2317 /* CryptoMessage */;
 			targetProxy = 7D5765951EC9A7FE00CA2317 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,9 +418,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = CryptoMessage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Crypto.Message;
+				PRODUCT_BUNDLE_IDENTIFIER = CryptoMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -433,9 +430,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = CryptoMessage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Crypto.Message;
+				PRODUCT_BUNDLE_IDENTIFIER = CryptoMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -446,12 +443,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = testTests/Info.plist;
+				INFOPLIST_FILE = CryptoMessageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.testTests;
+				PRODUCT_BUNDLE_IDENTIFIER = CryptoMessage.CryptoMessageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoMessage.app/CryptoMessage";
 			};
 			name = Debug;
 		};
@@ -460,12 +457,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = testTests/Info.plist;
+				INFOPLIST_FILE = CryptoMessageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.testTests;
+				PRODUCT_BUNDLE_IDENTIFIER = CryptoMessage.CryptoMessageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoMessage.app/CryptoMessage";
 			};
 			name = Release;
 		};
@@ -473,9 +470,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = testUITests/Info.plist;
+				INFOPLIST_FILE = CryptoMessageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.testUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = CryptoMessage.CryptoMessageUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = test;
@@ -488,7 +485,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = testUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.testUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = CryptoMessage.CryptoMessageUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = test;
@@ -498,7 +495,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7D57656D1EC9A7FE00CA2317 /* Build configuration list for PBXProject "test" */ = {
+		7D57656D1EC9A7FE00CA2317 /* Build configuration list for PBXProject "CryptoMessage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D57659B1EC9A7FE00CA2317 /* Debug */,
@@ -507,40 +504,44 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D57659D1EC9A7FE00CA2317 /* Build configuration list for PBXNativeTarget "test" */ = {
+		7D57659D1EC9A7FE00CA2317 /* Build configuration list for PBXNativeTarget "CryptoMessage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D57659E1EC9A7FE00CA2317 /* Debug */,
 				7D57659F1EC9A7FE00CA2317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7D5765A01EC9A7FE00CA2317 /* Build configuration list for PBXNativeTarget "testTests" */ = {
+		7D5765A01EC9A7FE00CA2317 /* Build configuration list for PBXNativeTarget "CryptoMessageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D5765A11EC9A7FE00CA2317 /* Debug */,
 				7D5765A21EC9A7FE00CA2317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7D5765A31EC9A7FE00CA2317 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+		7D5765A31EC9A7FE00CA2317 /* Build configuration list for PBXNativeTarget "CryptoMessageUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D5765A41EC9A7FE00CA2317 /* Debug */,
 				7D5765A51EC9A7FE00CA2317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7D57657C1EC9A7FE00CA2317 /* test.xcdatamodeld */ = {
+		7D57657C1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7D57657D1EC9A7FE00CA2317 /* test.xcdatamodel */,
+				7D57657D1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodel */,
 			);
-			currentVersion = 7D57657D1EC9A7FE00CA2317 /* test.xcdatamodel */;
-			path = test.xcdatamodeld;
+			currentVersion = 7D57657D1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodel */;
+			name = CryptoMessage.xcdatamodeld;
+			path = CryptoMessage.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
