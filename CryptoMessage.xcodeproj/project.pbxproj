@@ -14,10 +14,11 @@
 		7D5765831EC9A7FE00CA2317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5765811EC9A7FE00CA2317 /* LaunchScreen.storyboard */; };
 		7D57658E1EC9A7FE00CA2317 /* CryptoMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D57658D1EC9A7FE00CA2317 /* CryptoMessageTests.swift */; };
 		7D5765991EC9A7FE00CA2317 /* CryptoMessageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765981EC9A7FE00CA2317 /* CryptoMessageUITests.swift */; };
-		7DFAC2051ECB2E0600252839 /* CryptoMessage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D57657C1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodeld */; };
 		7D5765AC1ECAFFE800CA2317 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5765AB1ECAFFE800CA2317 /* MessageUI.framework */; };
 		7D5765B21ECB2E7C00CA2317 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765B11ECB2E7C00CA2317 /* SignInVC.swift */; };
 		7D5765B41ECB300500CA2317 /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765B31ECB300500CA2317 /* ContactsVC.swift */; };
+		7D5765B61ECB4EDA00CA2317 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765B51ECB4EDA00CA2317 /* SignUpVC.swift */; };
+		7DFAC2051ECB2E0600252839 /* CryptoMessage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D57657C1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		7D5765AB1ECAFFE800CA2317 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		7D5765B11ECB2E7C00CA2317 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		7D5765B31ECB300500CA2317 /* ContactsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
+		7D5765B51ECB4EDA00CA2317 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +130,6 @@
 				7D57658D1EC9A7FE00CA2317 /* CryptoMessageTests.swift */,
 				7D57658F1EC9A7FE00CA2317 /* Info.plist */,
 			);
-			name = CryptoMessageTests;
 			path = CryptoMessageTests;
 			sourceTree = "<group>";
 		};
@@ -138,7 +139,6 @@
 				7D5765981EC9A7FE00CA2317 /* CryptoMessageUITests.swift */,
 				7D57659A1EC9A7FE00CA2317 /* Info.plist */,
 			);
-			name = CryptoMessageUITests;
 			path = CryptoMessageUITests;
 			sourceTree = "<group>";
 		};
@@ -169,6 +169,7 @@
 			children = (
 				7D5765B11ECB2E7C00CA2317 /* SignInVC.swift */,
 				7D5765B31ECB300500CA2317 /* ContactsVC.swift */,
+				7D5765B51ECB4EDA00CA2317 /* SignUpVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -318,6 +319,7 @@
 				7D5765781EC9A7FE00CA2317 /* ViewController.swift in Sources */,
 				7D5765761EC9A7FE00CA2317 /* AppDelegate.swift in Sources */,
 				7D5765B21ECB2E7C00CA2317 /* SignInVC.swift in Sources */,
+				7D5765B61ECB4EDA00CA2317 /* SignUpVC.swift in Sources */,
 				7D5765B41ECB300500CA2317 /* ContactsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,7 +594,6 @@
 				7D57657D1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodel */,
 			);
 			currentVersion = 7D57657D1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodel */;
-			name = CryptoMessage.xcdatamodeld;
 			path = CryptoMessage.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

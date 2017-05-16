@@ -9,6 +9,8 @@
 import UIKit
 
 class SignInVCViewController: UIViewController {
+    
+    private let CONTACTS_SEGUE = "ContactsSegue";
 
     @IBOutlet weak var loginTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -25,9 +27,10 @@ class SignInVCViewController: UIViewController {
     }
     
     @IBAction func login(_ sender: Any) {
-        performSegue(withIdentifier: "ContactsSegue", sender: nil);
+        performSegue(withIdentifier: CONTACTS_SEGUE, sender: nil);
     }
     @IBAction func signUp(_ sender: Any) {
+        performSegue(withIdentifier: "ContactSegue", sender: nil);
     }
 
     
