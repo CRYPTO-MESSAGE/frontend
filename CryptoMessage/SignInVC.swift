@@ -10,10 +10,13 @@ import UIKit
 
 class SignInVCViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var loginTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +24,13 @@ class SignInVCViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func login(_ sender: Any) {
+        performSegue(withIdentifier: "ContactsSegue", sender: nil);
+    }
+    @IBAction func signUp(_ sender: Any) {
+    }
+
+    
 
 
-}
+} //class
