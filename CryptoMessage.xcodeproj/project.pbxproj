@@ -18,6 +18,7 @@
 		7D5765B21ECB2E7C00CA2317 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765B11ECB2E7C00CA2317 /* SignInVC.swift */; };
 		7D5765B41ECB300500CA2317 /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765B31ECB300500CA2317 /* ContactsVC.swift */; };
 		7D5765B61ECB4EDA00CA2317 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765B51ECB4EDA00CA2317 /* SignUpVC.swift */; };
+		7DC533AF1ECC3A3D00A24FDE /* AsymmetricCryptoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC533AE1ECC3A3D00A24FDE /* AsymmetricCryptoManager.swift */; };
 		7DFAC2051ECB2E0600252839 /* CryptoMessage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D57657C1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,8 @@
 		7D5765B11ECB2E7C00CA2317 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		7D5765B31ECB300500CA2317 /* ContactsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
 		7D5765B51ECB4EDA00CA2317 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		7DC533AD1ECC3A0100A24FDE /* AsymmetricCrypto-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AsymmetricCrypto-Bridging-Header.h"; sourceTree = "<group>"; };
+		7DC533AE1ECC3A3D00A24FDE /* AsymmetricCryptoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsymmetricCryptoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +122,9 @@
 				7D57657F1EC9A7FE00CA2317 /* Assets.xcassets */,
 				7D5765811EC9A7FE00CA2317 /* LaunchScreen.storyboard */,
 				7D5765841EC9A7FE00CA2317 /* Info.plist */,
+				7DC533AE1ECC3A3D00A24FDE /* AsymmetricCryptoManager.swift */,
 				7D57657C1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodeld */,
+				7DC533AD1ECC3A0100A24FDE /* AsymmetricCrypto-Bridging-Header.h */,
 			);
 			path = CryptoMessage;
 			sourceTree = "<group>";
@@ -320,6 +325,7 @@
 				7D5765761EC9A7FE00CA2317 /* AppDelegate.swift in Sources */,
 				7D5765B21ECB2E7C00CA2317 /* SignInVC.swift in Sources */,
 				7D5765B61ECB4EDA00CA2317 /* SignUpVC.swift in Sources */,
+				7DC533AF1ECC3A3D00A24FDE /* AsymmetricCryptoManager.swift in Sources */,
 				7D5765B41ECB300500CA2317 /* ContactsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +482,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CryptoMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CryptoMessage/AsymmetricCrypto-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -488,6 +495,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CryptoMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CryptoMessage/AsymmetricCrypto-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
