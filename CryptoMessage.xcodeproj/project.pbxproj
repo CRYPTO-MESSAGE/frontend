@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		3DA53021276A829E7FB0E6B4 /* Pods_CryptoMessageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6984DF9B1CCE19D59532EE /* Pods_CryptoMessageTests.framework */; };
 		7A9021C92A4015F518661AA6 /* Pods_CryptoMessageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66560291E65F0F13AE40AA1A /* Pods_CryptoMessageUITests.framework */; };
+		7D1B01761ECDF3370017ED0E /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1B01751ECDF3370017ED0E /* ApiConfig.swift */; };
+		7D1B01781ECDF4680017ED0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1B01771ECDF4680017ED0E /* Main.storyboard */; };
 		7D5765761EC9A7FE00CA2317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765751EC9A7FE00CA2317 /* AppDelegate.swift */; };
 		7D5765781EC9A7FE00CA2317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5765771EC9A7FE00CA2317 /* ViewController.swift */; };
-		7D57657B1EC9A7FE00CA2317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5765791EC9A7FE00CA2317 /* Main.storyboard */; };
 		7D5765801EC9A7FE00CA2317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D57657F1EC9A7FE00CA2317 /* Assets.xcassets */; };
 		7D5765831EC9A7FE00CA2317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5765811EC9A7FE00CA2317 /* LaunchScreen.storyboard */; };
 		7D57658E1EC9A7FE00CA2317 /* CryptoMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D57658D1EC9A7FE00CA2317 /* CryptoMessageTests.swift */; };
@@ -49,10 +50,11 @@
 		1EF208CA0F47C3451F4D9B53 /* Pods-CryptoMessageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoMessageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoMessageUITests/Pods-CryptoMessageUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4F160A39295B338734AD20E5 /* Pods_CryptoMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66560291E65F0F13AE40AA1A /* Pods_CryptoMessageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoMessageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1B01751ECDF3370017ED0E /* ApiConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
+		7D1B01771ECDF4680017ED0E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 		7D5765721EC9A7FE00CA2317 /* CryptoMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5765751EC9A7FE00CA2317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D5765771EC9A7FE00CA2317 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7D57657A1EC9A7FE00CA2317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D57657D1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CryptoMessage.xcdatamodel; sourceTree = "<group>"; };
 		7D57657F1EC9A7FE00CA2317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D5765821EC9A7FE00CA2317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -147,11 +149,12 @@
 				7D5765AD1ECB2A6200CA2317 /* Model */,
 				7D5765751EC9A7FE00CA2317 /* AppDelegate.swift */,
 				7D5765771EC9A7FE00CA2317 /* ViewController.swift */,
-				7D5765791EC9A7FE00CA2317 /* Main.storyboard */,
 				7D57657F1EC9A7FE00CA2317 /* Assets.xcassets */,
 				7D5765811EC9A7FE00CA2317 /* LaunchScreen.storyboard */,
+				7D1B01771ECDF4680017ED0E /* Main.storyboard */,
 				7D5765841EC9A7FE00CA2317 /* Info.plist */,
 				7DC533AE1ECC3A3D00A24FDE /* AsymmetricCryptoManager.swift */,
+				7D1B01751ECDF3370017ED0E /* ApiConfig.swift */,
 				7D57657C1EC9A7FE00CA2317 /* CryptoMessage.xcdatamodeld */,
 				7DC533AD1ECC3A0100A24FDE /* AsymmetricCrypto-Bridging-Header.h */,
 			);
@@ -334,9 +337,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D1B01781ECDF4680017ED0E /* Main.storyboard in Resources */,
 				7D5765831EC9A7FE00CA2317 /* LaunchScreen.storyboard in Resources */,
 				7D5765801EC9A7FE00CA2317 /* Assets.xcassets in Resources */,
-				7D57657B1EC9A7FE00CA2317 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +504,7 @@
 			files = (
 				7DFAC2051ECB2E0600252839 /* CryptoMessage.xcdatamodeld in Sources */,
 				7D5765781EC9A7FE00CA2317 /* ViewController.swift in Sources */,
+				7D1B01761ECDF3370017ED0E /* ApiConfig.swift in Sources */,
 				7D5765761EC9A7FE00CA2317 /* AppDelegate.swift in Sources */,
 				7D5765B21ECB2E7C00CA2317 /* SignInVC.swift in Sources */,
 				7D5765B61ECB4EDA00CA2317 /* SignUpVC.swift in Sources */,
@@ -541,14 +545,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7D5765791EC9A7FE00CA2317 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D57657A1EC9A7FE00CA2317 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7D5765811EC9A7FE00CA2317 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

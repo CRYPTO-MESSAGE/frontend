@@ -6,7 +6,8 @@ target 'CryptoMessage' do
   use_frameworks!
 
   # Pods for CryptoMessage
-pod "JSQMessagesViewController"
+  pod "JSQMessagesViewController"
+  pod 'Alamofire', '~> 4.4'
 
   target 'CryptoMessageTests' do
     inherit! :search_paths
