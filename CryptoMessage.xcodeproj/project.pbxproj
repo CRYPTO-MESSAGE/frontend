@@ -51,7 +51,7 @@
 		4F160A39295B338734AD20E5 /* Pods_CryptoMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66560291E65F0F13AE40AA1A /* Pods_CryptoMessageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoMessageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1B01751ECDF3370017ED0E /* ApiConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
-		7D1B01771ECDF4680017ED0E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		7D1B01771ECDF4680017ED0E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7D5765721EC9A7FE00CA2317 /* CryptoMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5765751EC9A7FE00CA2317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D5765771EC9A7FE00CA2317 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
