@@ -6,6 +6,10 @@ FrontEnd made with XCode with MacOSX.
 
 Download the zip or clone this project.
 
+#### Configuration
+
+You have to indicate the IP or hostname of the API server in `ApiConfig.swift`.
+
 #### Start
 
 Click on play and wait an amount of seconds to test it.
