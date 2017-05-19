@@ -18,7 +18,6 @@ class ContactsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -39,7 +38,6 @@ class ContactsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         return cell;
         
     }
-
     
     @IBAction func logout(_ sender: Any) {
         dismiss(animated: true, completion: nil);

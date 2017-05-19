@@ -15,6 +15,7 @@ class SignInVCViewController: UIViewController {
     @IBOutlet weak var loginTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -32,6 +33,7 @@ class SignInVCViewController: UIViewController {
     @IBAction func signUp(_ sender: Any) {
         performSegue(withIdentifier: "ContactSegue", sender: nil);
     }
+    
 
     
 
