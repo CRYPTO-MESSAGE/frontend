@@ -14,8 +14,6 @@ class SignUpVC: UIViewController {
     @IBOutlet weak var message: UILabel!
     @IBOutlet weak var password1: UITextField!
     @IBOutlet weak var password2: UITextField!
-    @IBOutlet weak var password1Label: UILabel!
-    @IBOutlet weak var password2Label: UILabel!
     @IBOutlet weak var validateBtn: UIButton!
     @IBOutlet weak var nextBtn: UIButton!
     
@@ -64,9 +62,7 @@ class SignUpVC: UIViewController {
                     
                     self.message.text = "Votre login est \(ApiConfig.username)"
                     
-                    self.password1Label.isHidden = true
                     self.password1.isHidden = true
-                    self.password2Label.isHidden = true
                     self.password2.isHidden = true
                     self.validateBtn.isHidden = true
                     self.nextBtn.isHidden = false

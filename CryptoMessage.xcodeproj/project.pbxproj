@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3DA53021276A829E7FB0E6B4 /* Pods_CryptoMessageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6984DF9B1CCE19D59532EE /* Pods_CryptoMessageTests.framework */; };
 		7A9021C92A4015F518661AA6 /* Pods_CryptoMessageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66560291E65F0F13AE40AA1A /* Pods_CryptoMessageUITests.framework */; };
+		7D148D5C1ECF318200D7BF22 /* LOGOtsamere.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D148D5B1ECF318200D7BF22 /* LOGOtsamere.png */; };
+		7D148D5E1ECF354A00D7BF22 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D148D5D1ECF354A00D7BF22 /* image3.png */; };
 		7D1B01761ECDF3370017ED0E /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1B01751ECDF3370017ED0E /* ApiConfig.swift */; };
 		7D1B01781ECDF4680017ED0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1B01771ECDF4680017ED0E /* Main.storyboard */; };
 		7D29B27F1ECEF1A700377DB3 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D29B27E1ECEF1A700377DB3 /* image1.jpg */; };
@@ -51,6 +53,8 @@
 		1EF208CA0F47C3451F4D9B53 /* Pods-CryptoMessageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoMessageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoMessageUITests/Pods-CryptoMessageUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4F160A39295B338734AD20E5 /* Pods_CryptoMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66560291E65F0F13AE40AA1A /* Pods_CryptoMessageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoMessageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D148D5B1ECF318200D7BF22 /* LOGOtsamere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LOGOtsamere.png; path = ../../../LOGOtsamere.png; sourceTree = "<group>"; };
+		7D148D5D1ECF354A00D7BF22 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image3.png; path = ../../../image3.png; sourceTree = "<group>"; };
 		7D1B01751ECDF3370017ED0E /* ApiConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
 		7D1B01771ECDF4680017ED0E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7D29B27E1ECEF1A700377DB3 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image1.jpg; path = ../../../image1.jpg; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 		7D29B2801ECEF1C200377DB3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7D148D5B1ECF318200D7BF22 /* LOGOtsamere.png */,
+				7D148D5D1ECF354A00D7BF22 /* image3.png */,
 				7D29B27E1ECEF1A700377DB3 /* image1.jpg */,
 			);
 			name = Images;
@@ -348,6 +354,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D148D5C1ECF318200D7BF22 /* LOGOtsamere.png in Resources */,
+				7D148D5E1ECF354A00D7BF22 /* image3.png in Resources */,
 				7D1B01781ECDF4680017ED0E /* Main.storyboard in Resources */,
 				7D29B27F1ECEF1A700377DB3 /* image1.jpg in Resources */,
 				7D5765831EC9A7FE00CA2317 /* LaunchScreen.storyboard in Resources */,
