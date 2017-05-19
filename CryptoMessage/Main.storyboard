@@ -186,9 +186,10 @@
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEp-02-jR4">
                                 <rect key="frame" x="162" y="277" width="51" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="nextBtn"/>
                                 <state key="normal" title="Suivant"/>
                                 <connections>
-                                    <action selector="next:" destination="BKO-EM-q2S" eventType="touchUpInside" id="QAg-2v-9Ra"/>
+                                    <segue destination="a2z-mo-yqq" kind="show" id="uxS-c9-WoU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -220,7 +221,7 @@
                     <navigationItem key="navigationItem" title="Title" id="bId-uF-ldD"/>
                     <connections>
                         <outlet property="message" destination="KJL-vw-17F" id="siI-m3-X8y"/>
-                        <outlet property="nextBtn" destination="TEp-02-jR4" id="5vM-Iy-8nh"/>
+                        <outlet property="nextBtn" destination="TEp-02-jR4" id="UXP-sl-ADp"/>
                         <outlet property="password1" destination="ENM-in-e7R" id="I86-PR-xpy"/>
                         <outlet property="password1Label" destination="FeF-hS-SNn" id="v7o-Ji-FP4"/>
                         <outlet property="password2" destination="spG-KE-lh4" id="bV2-A3-pWG"/>
@@ -334,7 +335,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xPM-T1-qLp" id="mj7-1N-tlL">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -376,4 +377,7 @@
             <point key="canvasLocation" x="812" y="124"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="uxS-c9-WoU"/>
+    </inferredMetricsTieBreakers>
 </document>
